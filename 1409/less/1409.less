@@ -1,33 +1,59 @@
-.banner{
-    background: url("../images/bg-listing-product.jpg") no-repeat center center;
-    position: relative;
-    height: 334px;
-    .top{
-        ul{
-            margin: 20px 0 0 0 ;
-            li { 
-                color: white;
-                display: inline-block;
-                a{
-                color: white;
-                }
-            }
+footer{
+    background-color: #272939;
+}
+.sidebar-footer{
+    padding: 60px 0 25px;
+    ul > li , a , p{
+        color: white;
+    }
+    .button-ver-menu{
+        font-size: 18px;
+        font-family: 'MontserratRegular';
+        line-height: 50px;
+        margin-bottom: 14px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: white;
+    }
+    img{
+        margin-bottom: 20px;
+        display: inline-block;
+    }
+    .info-store-footer{
+        padding: 68px 0 30px;
+        li{
+            padding-left: 37px;
+            line-height: 25px;
+            margin-bottom: 20px;
         }
-        ul.dump > li + li:before{
-            content: '';
-            display: inline-block;
-            width: 34px;
-            height: 7px;
-            margin: 0 20px 0 30px;
-            background: url("../images/icon-bread.png") no-repeat center center;
+        li.address{
+            color: #fff;
+            background: url(../images/icon-local2.png) no-repeat left center;
+        }
+        li.phone{
+            background: url(../images/icon-phone2.png) no-repeat left center;
+        }
+        li.mail{
+            background: url(../images/icon-message2.png) no-repeat left center;
         }
     }
-    .mid{
-        margin-top: 100px;
-        h1,p{
-            color: white;
-            text-align: center;
-        }
+    .widget ul {
+        margin-left: 0;
+        list-style: none;
+    }
+    #menu-menu-categories,#menu-customer-service
+    {
+        padding-left: 0; 
+    }
+    .tagcloud a{
+        display: inline-block;
+        font-size: 13px !important;
+        font-weight: normal;
+        padding: 5px 10px;
+        background-color: transparent;
+        border: 1px solid  #fff;
+        margin: 0 3px 5px 0;
+        color:  #fff;
     }
     
 }
