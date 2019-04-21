@@ -1,0 +1,31 @@
+.banner {
+  background: url("../images/bg-listing-product.jpg") no-repeat center center;
+  position: relative;
+  height: 334px;
+}
+.banner .top ul {
+  margin: 20px 0 0 0;
+}
+.banner .top ul li {
+  color: white;
+  display: inline-block;
+}
+.banner .top ul li a {
+  color: white;
+}
+.banner .top ul.dump > li + li:before {
+  content: '';
+  display: inline-block;
+  width: 34px;
+  height: 7px;
+  margin: 0 20px 0 30px;
+  background: url("../images/icon-bread.png") no-repeat center center;
+}
+.banner .mid {
+  margin-top: 100px;
+}
+.banner .mid h1,
+.banner .mid p {
+  color: white;
+  text-align: center;
+}
